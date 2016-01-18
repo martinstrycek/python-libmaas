@@ -35,6 +35,7 @@ setup(
         "pytz >= 2014.10",
         "PyYAML >= 3.11",
         "terminaltables >= 2.1.0",
+        "Twisted >= 15.5.0",
     },
     test_suite="maas.client",
     tests_require={
@@ -43,7 +44,6 @@ setup(
         "setuptools",
         "testscenarios",
         "testtools",
-        "Twisted",
     },
     description="A client API library specially for MAAS.",
     entry_points={
